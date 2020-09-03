@@ -7,7 +7,7 @@ import { useState } from 'react';
       return JSON.parse(window.localStorage.getItem(key));
     } else {
       window.localStorage.setItem(key, JSON.stringify(initialValue));
-      return [storedValue];
+     
     }
   });
 
